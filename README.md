@@ -11,7 +11,13 @@ Released by [html5up.net](http://html5up.net) under the [Creative Commons Attrib
 * Mura CMS Core Version 6.0+
 * [Railo 4](http://getrailo.com)
 
-### ToDo
-* *More Documentation*
-* Customize CKEditor Styles and Templates
-* Use cfstatic for js and css
+### Mura Site Bundle
+This theme can be deployed using the following Mura site bundle. The bundle contains example pages and content as well as the theme.
+
+[Mura Halcyonic Site Bundle](https://dl.dropboxusercontent.com/u/9485601/MuraBundle_Halcyonic.zip)
+
+Here is documentation on Mura site bundles and how to deploy them.
+
+[Mura Site Bundles](http://docs.getmura.com/installation-set-up/site-settings/site-bundles/)
+
+[Deploy Mura Site Bundles](http://docs.getmura.com/user-guide/site-settings/deploy-bundles/)
