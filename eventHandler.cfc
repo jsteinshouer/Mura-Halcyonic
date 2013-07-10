@@ -87,6 +87,11 @@ version 2 without this exception.  You may, if you choose, apply this exception 
 			renderer.subHead3 = 'h4';
 			renderer.subHead4 = 'h5';
 			renderer.subHead5 = 'h6';
+			
+			//default showMetaImage setting to false
+			if (isBoolean($.content("showMetaImage")) eq false) {
+				$.content("showMetaImage",0);
+			}
 
 			// nav and list item vars
 			renderer.ulTopClass = 'link-list';
