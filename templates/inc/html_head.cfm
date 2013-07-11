@@ -32,6 +32,7 @@
 		</script>
 		<script src="#$.siteConfig("themeAssetPath")#/assets/js/skel.min.js"></script>
 		<script src="#$.siteConfig("themeAssetPath")#/assets/js/skel-panels.min.js"></script>
+		<link rel="stylesheet" href="#$.siteConfig("themeAssetPath")#/assets/css/mura.min.css" />
 		<noscript>
 			<link rel="stylesheet" href="#$.siteConfig("themeAssetPath")#/assets/css/skel-noscript.css" />
 			<link rel="stylesheet" href="#$.siteConfig("themeAssetPath")#/assets/css/style.css" />
