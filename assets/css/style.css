@@ -304,3 +304,16 @@
 		background-image: -o-linear-gradient(top, #ce1a00, #ed391b);
 		background-image: linear-gradient(top, #ce1a00, #ed391b);
 	}
+
+	.pagination > ul > li {
+		display: inline;
+		margin: .2em;
+	}
+	
+	.pagination > ul > li.current {
+		font-weight: strong;
+	}
+	
+	.pagination > ul > li.navNext {
+		margin-left: .5em;
+	}
