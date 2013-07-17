@@ -305,15 +305,17 @@
 		background-image: linear-gradient(top, #ce1a00, #ed391b);
 	}
 
-	.pagination > ul > li {
+	.pagination, .pagination > ul, .pagination > ul > li, .pagination > ul > li:after {
 		display: inline;
-		margin: .2em;
+		margin: 2px;
 	}
 	
 	.pagination > ul > li.current {
-		font-weight: strong;
+		font-weight: bold;
+		display: inline;
 	}
 	
 	.pagination > ul > li.navNext {
-		margin-left: .5em;
+		margin-left: 5px;
+		display: inline;
 	}
