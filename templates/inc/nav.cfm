@@ -1,4 +1,4 @@
-<cf_CacheOMatic key="PrimaryNav#$.siteConfig("siteid")#">
+<cf_CacheOMatic key="PrimaryNav#$.content('contentid')#">
 <cfsilent>
 <!--- Get a feed iterator with content that is a direct decendant to the home page --->
 <cfset iterator = $.getBean("feed")
