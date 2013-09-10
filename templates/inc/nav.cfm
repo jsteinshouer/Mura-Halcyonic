@@ -18,7 +18,7 @@
 		<nav id="nav">
 			<cfloop condition="iterator.hasNext()">
 				<cfset item = iterator.next()>
-				<a href="#item.getUrl()#">#item.getTitle()#</a>
+				<a href="#HTMLEditFormat(item.getUrl())#">#HTMLEditFormat(item.getTitle())#</a>
 			</cfloop>
 		</nav>
 	</cfoutput>
